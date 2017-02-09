@@ -1,24 +1,2 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[![Codeship](https://img.shields.io/codeship/b60215f0-d12b-0134-c897-0a5e60453cc0/development.svg)]()
+[![Coveralls branch](https://img.shields.io/coveralls/jpkeane/floworx-sa/development.svg)](https://coveralls.io/github/jpkeane/floworx-sa)
