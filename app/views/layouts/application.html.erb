@@ -9,6 +9,28 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render 'layouts/application/header' %>
+    <div class="page-wrapper">
+      <div class="page-wrapper-row full-height">
+        <div class="page-wrapper-middle">
+          <div class="page-container">
+            <div class="page-content-wrapper">
+              <%= render 'layouts/application/page_bar' %>
+              <div class="page-content">
+                <div class="container">
+                  <div class="page-content-inner">
+                    <%= render 'layouts/application/breadcrumbs' %>
+                    <div class="mt-content-body">
+                      <%= yield %>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%= render 'layouts/application/footer' %>
   </body>
 </html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FloworxSa</title>
+  <%= csrf_meta_tags %>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+<%= render 'layouts/front/header' %>
+<div class="page-wrapper">
+  <div class="page-wrapper-row full-height">
+    <div class="page-wrapper-middle">
+      <div class="page-container">
+        <div class="page-content-wrapper">
+          <div class="page-content">
+            <div class="container">
+              <div class="page-content-inner">
+                <div class="mt-content-body">
+                  <%= yield %>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%= render 'layouts/front/footer' %>
+</body>
+</html>
